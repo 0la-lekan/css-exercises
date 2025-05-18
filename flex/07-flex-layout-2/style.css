@@ -5,7 +5,7 @@ body {
 
   display: flex;
   flex-flow: column ;
-  justify-content: space-between;
+  justify-content: space-betw;
 }
 
 .header {
@@ -57,7 +57,7 @@ body {
 
 .mid-piece {
   display: flex;
-  
+  flex: 1;  
 }
 a, li {
 text-decoration: none;
@@ -74,4 +74,7 @@ ul {
   flex-wrap: wrap;
   padding: 32px;
   gap: 10px;
+}
+li {
+  margin-bottom: 16px;
 }
